@@ -242,13 +242,14 @@ section article p{
 }
 .soc_icon2{
     text-align: center;
-    line-height: 27px !important;
+    line-height: 24px !important;
     width: 27px;
     background-color: #24282f;
     display: inline-block;
     border-radius: 50%;
     color: #6e7279;
     border: 1px solid #6e7279;
+    font-size: 14px;
 }
 .soc_icon2:hover{
     background-color: #b5a263;
@@ -260,4 +261,19 @@ section article p{
     color: black;
     transition: 0.2s;
     font-weight: bold;
+}
+footer .wrapper{
+    text-align: left;
+}
+.aboutfapor_block1{
+    width: 240px;
+}
+.aboutfapor_block2{
+    width: 165px;
+}
+.paragraph2 a{
+    color: #6e7279;
+}
+.paragraph2 a:hover{
+    color: #b5a263;
 }
