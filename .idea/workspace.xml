@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b1fd324-e54a-4756-b370-90423c0b416f" name="Default Changelist" comment="deleted superfluous tegs">
+    <list default="true" id="5b1fd324-e54a-4756-b370-90423c0b416f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +35,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +55,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\Lemon School\fapor\js" />
+      <recent name="D:\IT\Lemon School\fapor\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -66,7 +81,18 @@
       <workItem from="1599557017538" duration="62000" />
       <workItem from="1599557197607" duration="1331000" />
       <workItem from="1599560069734" duration="492000" />
-      <workItem from="1599574683069" duration="2009000" />
+      <workItem from="1599574683069" duration="2915000" />
+      <workItem from="1599739323445" duration="65000" />
+      <workItem from="1599909083672" duration="7000" />
+      <workItem from="1600290253340" duration="38000" />
+      <workItem from="1600671806895" duration="28000" />
+      <workItem from="1600671911901" duration="51000" />
+      <workItem from="1600672212699" duration="21000" />
+      <workItem from="1600672963865" duration="239000" />
+      <workItem from="1600673234171" duration="5000" />
+      <workItem from="1600710122770" duration="1491000" />
+      <workItem from="1600872516131" duration="83000" />
+      <workItem from="1601118040768" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="deleted superfluous tegs">
       <created>1599557485582</created>
@@ -75,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599557485583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed all bugs">
+      <created>1599576995288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599576995289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,14 +128,21 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="deleted superfluous tegs" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted superfluous tegs" />
+    <MESSAGE value="fixed all bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed all bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599557606947">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599576988768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599557606947" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599576988768" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599577009887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599577009887" />
     <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1599574691625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
