@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1fd324-e54a-4756-b370-90423c0b416f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.preproc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.preproc.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.preproc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +34,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -55,7 +56,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +66,7 @@
       <recent name="D:\IT\Lemon School\fapor\css" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -92,7 +94,43 @@
       <workItem from="1600673234171" duration="5000" />
       <workItem from="1600710122770" duration="1491000" />
       <workItem from="1600872516131" duration="83000" />
-      <workItem from="1601118040768" duration="2307000" />
+      <workItem from="1601118040768" duration="4922000" />
+      <workItem from="1601222630159" duration="149000" />
+      <workItem from="1601227720253" duration="45000" />
+      <workItem from="1601228181772" duration="176000" />
+      <workItem from="1601314436437" duration="9000" />
+      <workItem from="1601314560881" duration="15000" />
+      <workItem from="1601314683651" duration="10000" />
+      <workItem from="1601914610256" duration="5496000" />
+      <workItem from="1602248266307" duration="1427000" />
+      <workItem from="1602259308645" duration="53000" />
+      <workItem from="1602259726163" duration="8000" />
+      <workItem from="1602260551735" duration="48000" />
+      <workItem from="1602261260508" duration="27000" />
+      <workItem from="1602267463151" duration="10000" />
+      <workItem from="1602268843073" duration="43000" />
+      <workItem from="1602425837477" duration="26000" />
+      <workItem from="1602425947103" duration="46000" />
+      <workItem from="1602426216253" duration="30000" />
+      <workItem from="1602521164079" duration="9000" />
+      <workItem from="1602613926398" duration="48000" />
+      <workItem from="1602624658862" duration="52000" />
+      <workItem from="1602624920587" duration="240000" />
+      <workItem from="1602625781804" duration="14000" />
+      <workItem from="1602629621459" duration="58000" />
+      <workItem from="1602629973847" duration="297000" />
+      <workItem from="1602630793538" duration="75000" />
+      <workItem from="1602631525752" duration="16000" />
+      <workItem from="1602631607111" duration="8000" />
+      <workItem from="1602631818146" duration="33000" />
+      <workItem from="1602632218559" duration="37000" />
+      <workItem from="1602772732903" duration="131000" />
+      <workItem from="1602772929053" duration="165000" />
+      <workItem from="1602969059850" duration="90000" />
+      <workItem from="1603034920061" duration="59000" />
+      <workItem from="1603035598596" duration="16000" />
+      <workItem from="1603038242883" duration="14000" />
+      <workItem from="1604862854963" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="deleted superfluous tegs">
       <created>1599557485582</created>
@@ -108,41 +146,56 @@
       <option name="project" value="LOCAL" />
       <updated>1599576995289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="started carousel">
+      <created>1601120408310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601120408310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="deleted superfluous tegs" />
     <MESSAGE value="fixed all bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed all bugs" />
+    <MESSAGE value="started carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="started carousel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599576988768">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601120395844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599576988768" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599577009887">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601120395844" />
+    <state x="317" y="142" key="EditFileWatcherDialog" timestamp="1601914685150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599577009887" />
+    <state x="317" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1601914685150" />
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1601914683613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601914683613" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601120415846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601120415846" />
     <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1599574691625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,111 @@
+@import "style.css";
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+$main_color: green;
+$black_color: black;
+
+header nav ul li a{
+  color: $main_color;
+}
+
+.btn{
+  padding: 20px 30px;
+  font-size: 20px;
+  border: 1px solid $black_color;
+}
+
+header{
+  background: #fff;
+  padding: 10px;
+  nav{
+    @include max-screen(320px){
+      background-color: red;
+    }
+    margin-bottom: 15px;
+    ul{
+      li{
+        a{
+          color: $main_color;
+        }
+      }
+    }
+  }
+}
+
+footer{
+  .footer_button{
+    @extend .btn;
+    border: 1px solid white;
+  }
+}
+
+@keyframes crazy {
+  0%{
+    left:0;
+    top:0;
+  }
+  20%{
+    left: 20%;
+    top: 20%;
+  }
+  50%{
+    transform: rotate(90deg);
+    left: 50%;
+    top:50%
+  }
+  80%{
+    left: 20%;
+    top: 20%;
+    transform: rotate(190deg);
+  }
+  100%{
+    left: 0;
+    top: 0;
+    transform: rotate(0deg);
+  }
+}
+
+.crazy{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  animation: crazy 1s infinite;
+}
+
+@keyframes crazy2 {
+  0%{
+    right: 0;
+    top: 0;
+  }
+  20%{
+    right: 20%;
+    top: 20%;
+  }
+  50%{
+    right: 50%;
+    top:50%
+  }
+  80%{
+    right: 20%;
+    top: 20%;
+  }
+  100%{
+    right: 0;
+    top: 0;
+  }
+}
+
+.crazy2{
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  animation: crazy2 5s infinite;
+  position: absolute;
+}
