@@ -10,6 +10,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: url('../fonts/Raleway-Bold.eot');
@@ -22,33 +23,40 @@
     font-style: normal;
     font-display: swap;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-header{
+
+header {
     background-color: #24282f;
     padding-top: 31px;
 }
-.container{
+
+.container {
     margin: auto;
     max-width: 1064px;
     padding: 0 15px;
 }
-header .container{
+
+header .container {
     display: flex;
     justify-content: space-between;
 }
-header nav ul{
+
+header nav ul {
     list-style: none;
 }
-header nav ul li{
+
+header nav ul li {
     display: inline-block;
     margin-left: 52px;
 }
-header nav ul li a{
+
+header nav ul li a {
     color: white;
     font-size: 11px;
     text-transform: uppercase;
@@ -56,7 +64,7 @@ header nav ul li a{
     font-family: 'Open Sans';
 }
 
-header nav ul li:after{
+header nav ul li:after {
     content: "";
     display: block;
     margin-top: 33px;
@@ -66,42 +74,47 @@ header nav ul li:after{
     transition: 0.3s;
 }
 
-header nav ul li:hover:after{
+header nav ul li:hover:after {
     width: 100%;
 }
 
-section article h1{
+section article h1 {
     font-size: 32px;
     color: white;
     text-transform: uppercase;
     font-family: 'Raleway';
 }
-section article p{
+
+section article p {
     font-size: 11px;
     color: white;
     margin-top: 15px;
     font-family: 'Open Sans', sans-serif;
     line-height: 18px;
 }
-.about_us{
+
+.about_us {
     background-image: url("../images/bg_aboutus.jpg");
     background-size: cover;
     padding: 70px 0;
 }
-.wrapper{
+
+.wrapper {
     max-width: 888px;
     margin: auto;
     text-align: center;
     padding: 0 15px;
 }
-.header2{
+
+.header2 {
     font-size: 20px;
     color: #24282f;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
-.header2:after{
+
+.header2:after {
     content: "";
     display: block;
     height: 1px;
@@ -110,16 +123,19 @@ section article p{
     margin: auto;
     margin-top: 23px;
 }
-.management{
+
+.management {
     padding: 122px 0 24px;
 }
-.wrapper_container{
+
+.wrapper_container {
     display: flex;
     justify-content: space-between;
     margin-top: 26px;
     text-align: left;
 }
-.name{
+
+.name {
     font-size: 13px;
     color: #232323;
     text-transform: uppercase;
@@ -127,12 +143,14 @@ section article p{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
-.position{
+
+.position {
     font-size: 11px;
     color: #b5a263;
     font-family: 'Open Sans', sans-serif;
 }
-.showall{
+
+.showall {
     padding: 13px 30px;
     border: 1px solid #7c7e82;
     border-radius: 50px 50px;
@@ -143,16 +161,19 @@ section article p{
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
 }
-.showall:hover{
+
+.showall:hover {
     background-color: #2b2f36;
     color: #b5a263;
     transition: 0.2s;
 }
-.flexing{
+
+.flexing {
     display: flex;
     justify-content: space-between;
 }
-.soc_icon{
+
+.soc_icon {
     text-align: center;
     line-height: 27px !important;
     width: 27px;
@@ -163,59 +184,70 @@ section article p{
     font-size: 14px;
     margin-top: 23px;
 }
-.soc_icon:hover{
+
+.soc_icon:hover {
     background-color: #2b2f36;
     color: #b5a263;
     transition: 0.2s;
 }
-.review{
+
+.review {
     background-color: #f7f7f7;
     padding: 94px 0;
 }
-.clientssay:after{
+
+.clientssay:after {
     background-color: #24282f;
 }
-.larryjane{
+
+.larryjane {
     margin-top: 50px;
 }
-.paragraph{
+
+.paragraph {
     margin-top: 31px;
     font: 11px/20px 'Open Sans', sans-serif;
     color: #000;
     font-weight: 300;
 }
-.name1{
+
+.name1 {
     margin-top: 37px;
     color: #b5a263;
     font: 13px/25px 'Open Sans', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
 }
-.position1{
+
+.position1 {
     font: 11px/25px 'Open Sans', sans-serif;
     color: #000;
 }
-.aboutfapor{
+
+.aboutfapor {
     text-align: left !important;
     padding: 62px 0 35px;
     background-color: #2b2f35;
     border-top: 1px solid #8b8d90;
 }
-.header3{
+
+.header3 {
     font-size: 11px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #b5a263;
     text-transform: uppercase;
 }
-.paragraph2{
+
+.paragraph2 {
     line-height: 18px;
     color: #6e7279;
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     margin-top: 25px;
 }
-.submit{
+
+.submit {
     margin-top: 8px;
     line-height: 29px;
     text-align: center;
@@ -225,23 +257,27 @@ section article p{
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
 }
-.email{
+
+.email {
     background-color: #2b2f35;
     border: 2px solid #4b4f55;
     padding: 10px;
     width: 100%;
 }
-.respotheme{
+
+.respotheme {
     background-color: #24282f;
     border-top: 1px solid #8b8d90;
     line-height: 50px;
 }
-.paragraph3{
+
+.paragraph3 {
     font-size: 9px;
     color: #6e7279;
     font-family: 'Open Sans', sans-serif;
 }
-.soc_icon2{
+
+.soc_icon2 {
     text-align: center;
     line-height: 24px !important;
     width: 27px;
@@ -252,54 +288,61 @@ section article p{
     border: 1px solid #6e7279;
     font-size: 14px;
 }
-.soc_icon2:hover{
+
+.soc_icon2:hover {
     background-color: #b5a263;
     color: white;
     border: none;
     transition: 0.2s;
 }
-.submit:hover{
+
+.submit:hover {
     color: black;
     transition: 0.2s;
     font-weight: bold;
 }
-footer .wrapper{
+
+footer .wrapper {
     text-align: left;
 }
-.aboutfapor_block1{
+
+.aboutfapor_block1 {
     width: 240px;
 }
-.aboutfapor_block2{
+
+.aboutfapor_block2 {
     width: 165px;
 }
-.paragraph2 a{
+
+.paragraph2 a {
     color: #6e7279;
 }
-.paragraph2 a:hover{
+
+.paragraph2 a:hover {
     color: #b5a263;
 }
 
-.owl-nav .owl-prev{
+.owl-nav .owl-prev {
     width: 20px;
     height: 20px;
     display: block;
     position: absolute;
     left: 0;
     top: 80px;
-    font-weight: 900!important;
-    font-family: "Font Awesome 5 Free"!important;
+    font-weight: 900 !important;
+    font-family: "Font Awesome 5 Free" !important;
     outline: none;
 }
 
-.owl-nav .owl-next{
+.owl-nav .owl-next {
     width: 20px;
     height: 20px;
     display: block;
     position: absolute;
     right: 0;
     top: 80px;
-    font-weight: 900!important;
-    font-family: "Font Awesome 5 Free"!important;
+    font-weight: 900 !important;
+    font-family: "Font Awesome 5 Free" !important;
     outline: none;
 }
 
